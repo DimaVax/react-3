@@ -1,0 +1,33 @@
+.transaction {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    & thead {
+        background-color: rgb(15, 187, 255);
+        color: #ffffff;
+        
+        font-weight: 700;
+      }
+      
+      & th,
+      & td {
+        padding: 10px;
+        outline: 1px solid #ddd;
+        text-align: center;
+      }
+      & tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+        color:#666666
+      }
+
+      & tbody tr:nth-child(odd) {
+        background-color: white;
+        color:#666666
+
+      }
+      
+      
+  }
+  
+  

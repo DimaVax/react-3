@@ -1,0 +1,60 @@
+.profile{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 500px;
+    outline: solid red 1px;
+    &Avatar{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        outline: solid red 1px;
+        margin: 0 auto 40px auto;
+        display: block;
+
+    }
+    &Name{
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+        color: rgb(36, 36, 36);
+    }
+    &Tag, &Location{
+        font-size: 17px;
+        color: rgb(148, 148, 148);
+        margin: 0;
+        text-align: center;
+    }
+    &Tag{
+        margin-bottom: 10px;
+    }
+    &Desc{
+        padding-top: 40px;
+        
+    }
+    &Stats{
+        display: flex;
+    }
+    &Item{
+        width: 33.3333333%;
+        height: 130px;
+        background-color: #f7f7f7;
+        outline: 1px solid rgb(192, 192, 192);
+        // padding: 30px;
+    }
+    &Label{
+        display: block;
+        font-size: 15px;
+        color: rgb(148, 148, 148);
+        text-align: center;
+        margin: 30px 0 15px 0
+    }
+    &Quantity{
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+    }
+}

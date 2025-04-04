@@ -1,0 +1,47 @@
+.friendList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+
+  &Item {
+    // background-color: #e7e7e7;
+    display: flex;
+    box-shadow: -12px -4px 17px -1px rgba(0, 0, 0, 0.32);
+    -webkit-box-shadow: -12px -4px 17px -1px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: -12px -4px 17px -1px rgba(0, 0, 0, 0.32);
+    padding: 10px 10px 10px 50px;
+    gap: 40px;
+    position: relative;
+    // outline: solid 1px #707070;
+  }
+  &Title{
+    font-size: 30px;
+    text-align: center;
+  }
+  &Name{
+    font-size: 20px;
+  }
+  &Avatar{
+    width: 70px;
+    height: 70px;
+    // background-color: #f5f5f5;
+    outline: solid 2px #c9c9c9;
+    border-radius: 5px;
+  }
+  &Online, &Offline {
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    // top: 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    background-color: #2de100;
+  }
+  &Offline {
+    background-color: #e10700;
+    /* background-color: red; */
+  }
+}
